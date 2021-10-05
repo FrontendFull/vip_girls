@@ -699,7 +699,8 @@ a:hover {
   padding: 12px;
 }
 .footer .f_title {
-  font-size: calc( 16px + (20 - 16) * ((100vw - 320px) / (1140 - 320)) );
+  font-weight: 600;
+  font-size: calc( 18px + (20 - 18) * ((100vw - 320px) / (1140 - 320)) );
   margin-bottom: 10px;
 }
 @media (min-width: 1170px) {
@@ -709,15 +710,16 @@ a:hover {
 }
 @media (max-width: 320px) {
   .footer .f_title {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .footer .f_text {
-  font-size: calc( 14px + (14 - 14) * ((100vw - 320px) / (1140 - 320)) );
+  font-weight: 600;
+  font-size: calc( 14px + (16 - 14) * ((100vw - 320px) / (1140 - 320)) );
 }
 @media (min-width: 1170px) {
   .footer .f_text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media (max-width: 320px) {

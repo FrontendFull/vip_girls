@@ -210,10 +210,12 @@ a {
         padding: 12px;
     }
     .f_title {
-        @include fz(20, 16);
+        font-weight: 600;
+        @include fz(20, 18);
         margin-bottom: 10px;
     }
     .f_text {
-        @include fz(14, 14);
+        font-weight: 600;
+        @include fz(16, 14);
     }
 }
